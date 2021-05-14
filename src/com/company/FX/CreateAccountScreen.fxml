@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="344.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.FX.CreateAccountScreenController">
+    <children>
+      <ImageView fitHeight="400.0" fitWidth="601.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/f25d30af44a84f5aaf5ca655571755c6.gif" />
+         </image>
+      </ImageView>
+        <TextField fx:id="textFieldName" layoutX="227.0" layoutY="119.0" style="-fx-background-color: transparent; -fx-border-color: red; -fx-text-fill: white;" />
+        <TextField fx:id="textFieldLogin" layoutX="225.0" layoutY="173.0" style="-fx-background-color: transparent; -fx-border-color: green; -fx-text-fill: white;" />
+        <PasswordField fx:id="passwordFieldPassword" layoutX="225.0" layoutY="231.0" style="-fx-background-color: transparent; -fx-border-color: blue; -fx-text-fill: white;" />
+        <Label layoutX="188.0" layoutY="123.0" text="name:" textFill="WHITE" />
+        <Label layoutX="167.0" layoutY="235.0" text="password:" textFill="#f2f1f1" />
+        <Label layoutX="189.0" layoutY="177.0" text="login:" textFill="#f2f2f2" />
+        <Button fx:id="create" layoutX="274.0" layoutY="305.0" mnemonicParsing="false" onAction="#CreateClick" style="-fx-background-color: transparent;" text="Create" textFill="#ededed">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

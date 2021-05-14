@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="342.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.FX.MenuScreenController">
+   <ImageView fitHeight="451.0" fitWidth="601.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/f25d30af44a84f5aaf5ca655571755c6.gif" />
+      </image></ImageView>
+
+    <Button layoutX="25.0" layoutY="80.0" mnemonicParsing="false" onAction="#onAllHeroesClick" prefHeight="42.0" prefWidth="116.0" style="-fx-background-color: transparent;" text="All heroes" textFill="#d57d13">
+      <font>
+         <Font name="System Bold" size="19.0" />
+      </font></Button>
+    <Button layoutX="28.0" layoutY="173.0" mnemonicParsing="false" onAction="#onStrengthClick" prefHeight="42.0" prefWidth="109.0" style="-fx-background-color: transparent;" text="Strength" textFill="#d20b0b">
+      <font>
+         <Font name="System Bold" size="19.0" />
+      </font></Button>
+    <Button layoutX="465.0" layoutY="80.0" mnemonicParsing="false" onAction="#onAgilityClick" prefHeight="23.0" prefWidth="88.0" style="-fx-background-color: transparent;" text="Agility" textFill="#518446">
+      <font>
+         <Font name="System Bold" size="19.0" />
+      </font></Button>
+    <Button layoutX="468.0" layoutY="173.0" mnemonicParsing="false" onAction="#onMagicClick" prefHeight="20.0" prefWidth="82.0" style="-fx-background-color: transparent;" text="Magic" textFill="#2727b7">
+      <font>
+         <Font name="System Bold" size="19.0" />
+      </font></Button>
+    <Button fx:id="buttonDeleteAccount" layoutX="438.0" layoutY="298.0" mnemonicParsing="false" onAction="#clickDeleteAccount" prefHeight="30.0" prefWidth="126.0" style="-fx-background-color: transparent;" text="Delete Account" textFill="#dfdddd">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font></Button>
+   <Button fx:id="buttobChangrPersonalData" layoutX="14.0" layoutY="290.0" mnemonicParsing="false" onAction="#clickChangePersonalData" prefHeight="42.0" prefWidth="167.0" style="-fx-background-color: transparent;" text="Change personal data" textFill="#f0ebeb">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font></Button>
+    
+</AnchorPane>

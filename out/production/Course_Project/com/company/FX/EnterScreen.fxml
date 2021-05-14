@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="368.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.FX.EnterScreenController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/EnterScreen.jpeg" />
+         </image></ImageView>
+      <Button fx:id="Authorization" layoutX="103.0" layoutY="313.0" mnemonicParsing="false" onAction="#AuthorizationClick" prefWidth="88.0" style="-fx-background-color: red; -fx-text-fill: white;" text="Authorization" />
+      <Button fx:id="CreateAccount" layoutX="409.0" layoutY="313.0" mnemonicParsing="false" onAction="#CreateAccountClick" style="-fx-background-color: blue; -fx-text-fill: white;" text="Create account" />
+   </children>
+</AnchorPane>
